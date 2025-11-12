@@ -36,7 +36,8 @@ npm run dev
 cd ../llm_service
 python app.py
 ```
-### 项目结构
+4.**项目结构**
+```
 ─BankAI-Assistant
 │  ├─bankagent              # 银行代理服务模块
 │  │  ├─app.py              # 代理服务主程序
@@ -80,12 +81,14 @@ python app.py
 │  │      ├─tts_*.mp3      # 语音输出文件
 │  └─docs                   # 项目文档
 │      ├─README.md          # 项目说明文档
-#运行结果演示
+```
+#**运行结果演示**
+```
 <img width="346" height="254" alt="image" src="https://github.com/user-attachments/assets/f9062331-9432-42d6-b933-e219ca4a1e01" />
 <img width="373" height="564" alt="image" src="https://github.com/user-attachments/assets/d5901fec-de79-4d64-972d-5b8590723293" />
 <img width="364" height="387" alt="image" src="https://github.com/user-attachments/assets/fb2e7158-c828-48a6-aff4-50408b9d16af" />
 <img width="335" height="409" alt="image" src="https://github.com/user-attachments/assets/ab9ba678-8891-4959-9abf-4c473e8cb4da" />
-
+```
 项目完成时间：2025年暑期 | 技术栈：Python + FastAPI + 规则引擎 + 语音技术
 
 
